@@ -1,0 +1,308 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ohara dashboard</title>
+    <link rel="icon" href="asset/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;531;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body id="page-top">
+    <!-- wrapper  -->
+
+    <div class="alert">
+      <div class="alert alert-danger" role="alert">
+        please open in desktop mode ..mobile version is under development.
+      </div>
+      <img
+        style="width: 100%"
+        src="asset/img/images/mobile_underconstruction.svg"
+        alt=""
+      />
+    </div>
+    <div id="wrapper">
+      <!-- nav -->
+      <div class="leftside">
+        <ul class="nav sidebar">
+          <a href="#" style="text-align: center"
+            ><img class="nav__logo" src="asset/img/logo.svg" alt=""
+          /></a>
+          <button class="nav__btn">Join a course</button>
+          <li class="nav__menuList">
+            <a href="#"><img src="asset/img/logos/dashboard.png" alt="" /></a>
+            <span>Dashboard</span>
+          </li>
+          <li class="nav__menuList">
+            <a href="#"><img src="asset/img/logos/allcourse.png" alt="" /></a>
+            <span class="nav__menuList__active">All Courses</span>
+          </li>
+          <li class="nav__menuList">
+            <a href="#"><img src="asset/img/logos/files.png" alt="" /></a>
+            <span>Resources</span>
+          </li>
+          <li class="nav__menuList">
+            <a href="#"><img src="asset/img/logos/profile.png" alt="" /></a>
+            <span>Friends</span>
+          </li>
+          <li class="nav__menuList">
+            <a href="#"><img src="asset/img/logos/chat.png" alt="" /></a>
+            <span>Chats</span>
+          </li>
+          <li class="nav__menuList">
+            <a href="#"><img src="asset/img/logos/settings.png" alt="" /></a>
+            <span>Settings</span>
+          </li>
+
+          <div class="nav__footer">
+            <div class="nav__footer__img">
+              <img src="asset/img/footer.png" alt="" />
+            </div>
+
+            <p>
+              Upgrade to for <br />
+              more resources
+            </p>
+            <button class="nav__btn" style="margin: 0px 0px">Upgrade</button>
+          </div>
+        </ul>
+      </div>
+
+      <!-- end side nav -->
+
+      <!-- contemt  -->
+      <div id="content-wrapper">
+        <!-- content header  -->
+        <div class="header">
+          <!-- input search feild -->
+
+          <div class="input-group">
+            <div class="input-group-append">
+              <button class="btn" type="button" style="">
+                <i class="fa fa-search fa-sm" style="font-size: 15px"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="content__input"
+              placeholder="Search for..."
+              aria-label="Search"
+              aria-describedby="basic-addon2"
+            />
+          </div>
+
+          <div class="header__notification">
+            <img src="asset/img/logos/notification.png" alt="" />
+          </div>
+        </div>
+
+        <!-- main content  -->
+        <div class="main">
+          <nav
+            class="navbar navbar-expand-lg navbar-light"
+            style="
+              justify-content: space-between !important;
+              margin-bottom: 36px;
+            "
+          >
+            <a class="navbar-brand" href="#">ALL Courses</a>
+
+            <div class="my-2 my-lg-0" id="navbarNav" style="">
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link main__navlink main__navlinkactive" href="#"
+                    >Ongoing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link main__navlink main__navlinkdisabled"
+                    href="#"
+                    >Favorite</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link main__navlink main__navlinkdisabled"
+                    href="#"
+                    >Complete</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link main__navlink main__navlinkdisabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- courses containers  -->
+          <div class="header_course">
+            <div class="course_head">
+              <div class="title">
+                <h3 class="course-title">Ui/Ux Design</h3>
+                <p>20 lessons</p>
+              </div>
+              <p>2h 20min</p>
+            </div>
+          </div>
+
+          <div class="multiple__course">
+            <div class="multicourse-2">
+              <div
+                class="course"
+                style="
+                  background-image: url('asset/img/images/photography.png');
+                  margin-right: 20px;
+                "
+              >
+                <div class="course_head">
+                  <div class="title">
+                    <h3 class="course-title">Photography</h3>
+                    <p>12 lessons</p>
+                  </div>
+                  <p>1h 20min</p>
+                </div>
+              </div>
+            </div>
+            <div class="multicourse-2">
+              <div
+                class="course"
+                style="
+                  background-image: url('asset/img/images/animation.png');
+                  margin-left: 20px;
+                "
+              >
+                <div class="course_head">
+                  <div class="title">
+                    <h3 class="course-title">Animation</h3>
+                    <p>12 lessons</p>
+                  </div>
+                  <p>2h 30min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 
+      right side naav  -->
+      <div class="rightside">
+        <ul class="nav sidebar">
+          <a href="#" style="text-align: start"
+            ><img
+              class="nav__logo"
+              src="asset/img/profile/Rectangle 100.png"
+              alt=""
+            /><span id="name"> Alexa Rogue</span></a
+          >
+          <div class="course__progress" style="margin-top: 72px">
+            <h5>Progress</h5>
+            <!-- item1 -->
+            <div class="progress__item">
+              <div class="progress__icon">
+                <img src="asset/img/icons/pen.png" alt="" />
+              </div>
+              <div class="course__desc">
+                <p>Ui/Ux Design</p>
+                <span>Adavance</span>
+              </div>
+              <div class="course__progressbar"></div>
+            </div>
+            <!-- item2 -->
+            <div class="progress__item">
+              <div class="progress__icon" style="background: #d5f5fb">
+                <img src="asset/img/icons/photo.png" alt="" />
+              </div>
+              <div class="course__desc">
+                <p>Photography</p>
+                <span>Intermediate</span>
+              </div>
+              <div class="course__progressbar"></div>
+            </div>
+            <!-- item3 -->
+            <div class="progress__item">
+              <div class="progress__icon" style="background: #ffefd6">
+                <img src="asset/img/icons/animation.png" alt="" />
+              </div>
+              <div class="course__desc">
+                <p>Animation</p>
+                <span>Adavance</span>
+              </div>
+              <div class="course__progressbar"></div>
+            </div>
+          </div>
+
+          <!-- upcomingtask -->
+          <div class="course__progress" style="margin-top: 20px">
+            <h5>Upcoming Task</h5>
+            <!-- item1 -->
+            <div class="progress__item">
+              <div class="progress__icon">
+                <img src="asset/img/icons/uidis.png" alt="" />
+              </div>
+              <div class="course__desc">
+                <p>Ui/Ux - Discussion</p>
+                <span>27 oct 2020, Tuesday</span>
+              </div>
+              <div class="course__progressbar"></div>
+            </div>
+            <!-- item2 -->
+            <div class="progress__item">
+              <div class="progress__icon" style="background: #ffefd6">
+                <img src="asset/img/icons/animationdis.png" alt="" />
+              </div>
+              <div class="course__desc">
+                <p>Animation - 3D Animation</p>
+                <span>27 oct 2020, Tuesday</span>
+              </div>
+              <div class="course__progressbar"></div>
+            </div>
+            <!-- item3 -->
+          </div>
+
+          <div class="nav__footer"></div>
+        </ul>
+      </div>
+
+      <!-- right nav -->
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
